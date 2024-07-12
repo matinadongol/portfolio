@@ -1,0 +1,17 @@
+.skillsContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: column;
+  margin-top: 10rem;
+}
+.skillsContainer p{
+  width: 50%;
+}
+.skillsList{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+}

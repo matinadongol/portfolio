@@ -1,10 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import About from './about/About';
+import Home from './home/Home';
+import Skills from './skills/Skills';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <Home/>
+      <About/>
+      <Skills/>
     </div>
   );
 }

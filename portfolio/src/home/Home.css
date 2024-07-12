@@ -1,0 +1,40 @@
+.homeContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: column;
+  height: 80vh;
+}
+.homeContainer span{
+  color: #CD8495;
+}
+.homeContainer h3{
+  margin: 0 0 5rem 0;
+}
+.homeBottomSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  width: 100%;
+}
+.homeBottomSection hr{
+  width: 5rem;
+  border: none;
+  border-top: .2rem solid #666565; 
+  margin: 20px 0; 
+}
+.socialIconSection{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+.socialIconSection a{
+  color: #666565;
+  font-size: 3rem;
+}
+.socialIconSection a:hover{
+  color: #CD8495;
+}
