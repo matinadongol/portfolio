@@ -1,0 +1,134 @@
+.experienceContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5rem;
+  margin: 8rem;
+}
+.timeline {
+  position: relative;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: .6rem;
+  background-color: #CD8495;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.container {
+  padding: 1rem 4rem;
+  position: relative;
+  width: 50%;
+  margin-bottom: 3rem;
+}
+
+.container.left {
+  left: 0;
+}
+
+.container.right {
+  left: 50%;
+}
+
+.container::after {
+  content: '';
+  position: absolute;
+  width: 2.5rem;
+  height: 2.5rem;
+  right: -1.7rem;
+  border: 4px solid #ae455c;
+  top: 1.5rem;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.container.right::after {
+  left: -1.6rem;
+}
+
+.content {
+  padding: 2rem 3rem;
+  position: relative;
+  border-radius: .6rem;
+
+}
+.content h5{
+  margin: 1rem 0 2rem 0;
+}
+.content h5 span{
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.content p{
+  font-size: 1.6rem;
+}
+.blackberry .content {
+  background-color: #B8AAA7;
+}
+
+.blackberry::after {
+  border-color: #B8AAA7;
+  background-color: #B8AAA7;
+}
+
+.techtronix .content {
+  background-color: #D4B5BB;
+}
+
+.techtronix::after {
+  border-color: #D4B5BB;
+  background-color: #D4B5BB;
+}
+
+.pathway .content {
+  background-color: #A5BBD3;
+}
+
+.pathway::after {
+  border-color: #A5BBD3;
+  background-color: #A5BBD3;
+}
+
+/* .left .content {
+  transform: translateX(-100%);
+}
+
+.right .content {
+  transform: translateX(100%);
+} */
+
+/* Responsive design */
+@media screen and (max-width: 600px) {
+  .timeline::after {
+      left: 31px;
+  }
+
+  .container {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+  }
+
+  .container::before {
+      left: 60px;
+      border: medium solid white;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent white transparent transparent;
+  }
+
+  .left::after, .right::after {
+      left: 15px;
+  }
+
+  .left .content, .right .content {
+      transform: translateX(0%);
+  }
+}
