@@ -1,4 +1,4 @@
-.experienceContainer{
+.experienceContainer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,14 +13,14 @@
 }
 
 .timeline::after {
-  content: '';
+  content: "";
   position: absolute;
-  width: .6rem;
-  background-color: #CD8495;
+  width: 0.5rem;
+  background-color: #cd8495;
   top: 0;
   bottom: 0;
   left: 50%;
-  margin-left: -3px;
+  margin-left: -0.3rem;
 }
 
 .container {
@@ -39,7 +39,7 @@
 }
 
 .container::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 2.5rem;
   height: 2.5rem;
@@ -57,44 +57,43 @@
 .content {
   padding: 2rem 3rem;
   position: relative;
-  border-radius: .6rem;
-
+  border-radius: 0.6rem;
 }
-.content h5{
+.content h5 {
   margin: 1rem 0 2rem 0;
 }
-.content h5 span{
+.content h5 span {
   font-size: 1.4rem;
   font-weight: 400;
 }
-.content p{
+.content p {
   font-size: 1.6rem;
 }
 .blackberry .content {
-  background-color: #B8AAA7;
+  background-color: #b8aaa7;
 }
 
 .blackberry::after {
-  border-color: #B8AAA7;
-  background-color: #B8AAA7;
+  border-color: #b8aaa7;
+  background-color: #b8aaa7;
 }
 
 .techtronix .content {
-  background-color: #D4B5BB;
+  background-color: #d4b5bb;
 }
 
 .techtronix::after {
-  border-color: #D4B5BB;
-  background-color: #D4B5BB;
+  border-color: #d4b5bb;
+  background-color: #d4b5bb;
 }
 
 .pathway .content {
-  background-color: #A5BBD3;
+  background-color: #a5bbd3;
 }
 
 .pathway::after {
-  border-color: #A5BBD3;
-  background-color: #A5BBD3;
+  border-color: #a5bbd3;
+  background-color: #a5bbd3;
 }
 
 /* .left .content {
@@ -105,30 +104,33 @@
   transform: translateX(100%);
 } */
 
-/* Responsive design */
-@media screen and (max-width: 600px) {
+@media (max-width: 625px) {
   .timeline::after {
-      left: 31px;
+    left: 0;
+  }
+  .container.left::after {
+    left: -1.25rem;
   }
 
   .container {
-      width: 100%;
-      padding-left: 70px;
-      padding-right: 25px;
+    width: 100%;
+    padding-left: 7rem;
+    padding-right: 2.5rem;
+    left: -1% !important;
+  }
+  .container.right {
+    left: -1% !important;
   }
 
-  .container::before {
-      left: 60px;
-      border: medium solid white;
-      border-width: 10px 10px 10px 0;
-      border-color: transparent white transparent transparent;
-  }
+  /* .container::before {
+    left: 6rem;
+    border: medium solid rgb(223, 18, 18);
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+} */
 
-  .left::after, .right::after {
-      left: 15px;
-  }
-
-  .left .content, .right .content {
-      transform: translateX(0%);
+  .left::after,
+  .right::after {
+    left: 1.5rem;
   }
 }

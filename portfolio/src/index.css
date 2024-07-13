@@ -37,3 +37,18 @@ button{
   color:#272627;
   font-size: 2.5rem;
 }
+@media (max-width: 1024px) {
+  html{
+    font-size: 45%;
+  }
+}
+@media (max-width: 768px) {
+  html{
+    font-size: 35%;
+  }
+}
+@media (max-width: 425px) {
+  html{
+    font-size: 25%;
+  }
+}
