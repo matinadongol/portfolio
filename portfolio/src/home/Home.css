@@ -57,4 +57,7 @@
   .homeContainer{
     padding: 10rem 0;
   }
+  .homeRole span{
+    top: -2rem;
+  }
 }

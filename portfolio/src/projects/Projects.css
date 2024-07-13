@@ -1,0 +1,46 @@
+.projectsMain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2rem 10rem 5rem 10rem;
+}
+.projectsSub{
+  padding: 2%;
+  height: 25rem;
+  width: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projectsSub p{
+  font-size: 1.4rem;
+}
+.projectsSub a{
+  text-decoration: none;
+  color: #4a4949;
+}
+.projectsSub:nth-child(1){
+  background-color: #cd8495; 
+}
+.projectsSub:nth-child(2){
+  background-color: #b8aaa7; 
+}
+.projectsSub:nth-child(3){
+  background-color: #d5b4bb; 
+}
+.projectsSub:nth-child(4){
+  background-color: #a5bbd3; 
+}
+.projectsSub:nth-child(5){
+  background-color: #b8aaa7; 
+}
+.projectsSub:nth-child(6){
+  background-color: #d5b4bb; 
+}
+.projectsSub:nth-child(7){
+  background-color: #a5bbd3; 
+}
+.projectsSub:nth-child(8){
+  background-color: #cd8495; 
+}
