@@ -17,7 +17,7 @@
   position: absolute;
   width: 0.5rem;
   background-color: #cd8495;
-  top: 0;
+  top: -5rem;
   bottom: 0;
   left: 50%;
   margin-left: -0.3rem;
@@ -111,7 +111,6 @@
   .container.left::after {
     left: -1.25rem;
   }
-
   .container {
     width: 100%;
     padding-left: 7rem;
