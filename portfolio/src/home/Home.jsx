@@ -14,7 +14,7 @@ export default function Home() {
             <h3>Mobile App / Web Developer</h3>
         </div>
         <div className="homeBottomSection">
-          <a href="portfolio//Matina_Dongol_Resume.pdf" download>
+          <a href="portfolio/Matina_Dongol_Resume.pdf" download>
             <button>Download CV&nbsp;&nbsp;&gt;</button>
           </a>
           <hr/>
