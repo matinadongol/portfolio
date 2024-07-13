@@ -6,33 +6,30 @@
   flex-direction: column;
   padding: 20rem 0;
 }
-.homeRole{
+.homeIntro{
   display: flex;
-  gap: 5rem;
-  position: relative;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
 }
-.homeRole span{
-  background-color: #a5bbd3;
-  padding: 1rem;
-  border-radius: 50px;
-  font-size: 2rem;
-  font-weight: 900;
-  position: absolute;
-  left: 20rem;
-}
-.homeRole h1{
+.homeIntro h1{
   letter-spacing: 1rem;
 }
-.homeContainer h3{
-  margin: 0 0 5rem 0;
+.homeIntro h3{
+  letter-spacing: .3rem;
+  padding: 1rem;
+  background-color: #a5bbd3;
+  border-radius: 50px;
+  margin-top: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 .homeBottomSection{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
+  gap: 4rem;
   width: 100%;
-  margin-top: 5rem;
+  margin-top: 8rem;
 }
 .homeBottomSection hr{
   width: 5rem;

@@ -6,7 +6,7 @@ export default function About() {
     <>
       <div className="aboutContainer">
         <h1>About me</h1>
-        <p>Dedicated and flexible MERN stack developer and REACT Native specialist with five years of experience. Proficient in JavaScript, React, Node.js, Express,MongoDB, and Redux. Proven ability to collaborate effectively in diverse teams to accomplish project goals.</p>
+        <p>I am a dedicated and adaptable MERN stack developer and React Native specialist with five years of experience. My proficiency spans JavaScript, React, Node.js, Express, MongoDB, and Redux. I have created several projects, such as an e-commerce web application, a travel tracker mobile application, and a commercial website. Eager to learn new technologies, I continuously enhance my skills and am excited to contribute to innovative projects.</p>
       </div>
     </>
   )

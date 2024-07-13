@@ -1,17 +1,20 @@
+.projectsContainer h1{
+  margin-bottom: 5rem;
+}
 .projectsMain{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 2rem 10rem 5rem 10rem;
 }
 .projectsSub{
   padding: 2%;
   height: 25rem;
-  width: 30rem;
+  width: calc(50% - 20%);
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 .projectsSub p{
   font-size: 1.4rem;
@@ -33,14 +36,29 @@
   background-color: #a5bbd3; 
 }
 .projectsSub:nth-child(5){
-  background-color: #b8aaa7; 
+  background-color: #cd8495; 
 }
 .projectsSub:nth-child(6){
-  background-color: #d5b4bb; 
+  background-color: #b8aaa7; 
 }
 .projectsSub:nth-child(7){
   background-color: #a5bbd3; 
 }
 .projectsSub:nth-child(8){
   background-color: #cd8495; 
+}
+@media screen and (max-width: 1024px) {
+  .projectsSub {
+    width: calc(50% - 15%);
+  }
+}
+@media screen and (max-width: 768px) {
+  .projectsSub {
+    width: calc(100% - 60%);
+  }
+}
+@media screen and (max-width: 425px) {
+  .projectsSub {
+    width: calc(50% - 10%);
+  }
 }

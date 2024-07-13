@@ -4,14 +4,13 @@
   align-items: center;
   flex-direction: column;
   gap: 5rem;
-  margin: 8rem;
+  margin: 20rem 8rem;
 }
 .timeline {
   position: relative;
   max-width: 120rem;
   margin: 0 auto;
 }
-
 .timeline::after {
   content: "";
   position: absolute;
@@ -22,22 +21,18 @@
   left: 50%;
   margin-left: -0.3rem;
 }
-
 .container {
   padding: 1rem 4rem;
   position: relative;
   width: 50%;
   margin-bottom: 3rem;
 }
-
 .container.left {
   left: 0;
 }
-
 .container.right {
   left: 50%;
 }
-
 .container::after {
   content: "";
   position: absolute;
@@ -49,15 +44,15 @@
   border-radius: 50%;
   z-index: 1;
 }
-
 .container.right::after {
   left: -1.6rem;
 }
-
 .content {
   padding: 2rem 3rem;
   position: relative;
   border-radius: 0.6rem;
+  text-align: left;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 .content h5 {
   margin: 1rem 0 2rem 0;
@@ -68,6 +63,7 @@
 }
 .content p {
   font-size: 1.6rem;
+  color: #343333;
 }
 .blackberry .content {
   background-color: #b8aaa7;

@@ -9,13 +9,9 @@ export default function Home() {
     <>
       <div className="homeContainer">
         <div className="homeIntro">
-          <div className="homeRole">
             <h2>Hi! I'm</h2>
-            <span>FULL-STACK DEVELOPER</span>
-          </div>
-          <div className="homeRole">
             <h1>Matina Dongol.</h1>
-          </div>
+            <h3>Mobile App / Web Developer</h3>
         </div>
         <div className="homeBottomSection">
           <a href="portfolio//Matina_Dongol_Resume.pdf" download>

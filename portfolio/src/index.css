@@ -40,6 +40,7 @@ button{
   background-color: #CD8495;
   color:#feebef;
   font-size: 2.5rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 @media (max-width: 1024px) {
   html{

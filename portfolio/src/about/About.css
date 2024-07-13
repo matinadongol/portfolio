@@ -8,3 +8,8 @@
 .aboutContainer p{
   width: 50%;
 }
+@media (max-width: 500px) {
+  .aboutContainer p{
+    width: 70%;
+  }
+}
