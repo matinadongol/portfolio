@@ -8,8 +8,13 @@
 .aboutContainer p{
   width: 50%;
 }
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .aboutContainer p{
     width: 70%;
+  }
+}
+@media (max-width: 500px) {
+  .aboutContainer p{
+    width: 90%;
   }
 }

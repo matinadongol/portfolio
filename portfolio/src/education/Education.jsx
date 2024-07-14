@@ -11,11 +11,6 @@ function Education() {
         <div className="educationSubDiv">
           <div className="educationLeft">
             <FontAwesomeIcon icon={faGraduationCap} className="graduationCap" />
-            <div className="educationDate">
-              <h5>2023</h5>
-              <hr />
-              <h5>2024</h5>
-            </div>
           </div>
           <div className="educationDetails">
             <h3>Post-graduate certificate in Mobile Application Development</h3>
@@ -25,11 +20,6 @@ function Education() {
         <div className="educationSubDiv">
           <div className="educationLeft">
             <FontAwesomeIcon icon={faGraduationCap} className="graduationCap" />
-            <div className="educationDate">
-              <h5>2015</h5>
-              <hr />
-              <h5>2019</h5>
-            </div>
           </div>
           <div className="educationDetails">
             <h3>Bachelor in Information Management</h3>

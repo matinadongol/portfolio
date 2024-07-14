@@ -15,7 +15,7 @@ export default function Home() {
         </div>
         <div className="homeBottomSection">
           <a href="/portfolio/Matina_Dongol_Resume.pdf" download>
-            <button>Download CV&nbsp;&nbsp;&gt;</button>
+            <button>Resume</button>
           </a>
           <hr/>
           <div className="socialIconSection">

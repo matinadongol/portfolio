@@ -68,38 +68,24 @@
 .blackberry .content {
   background-color: #b8aaa7;
 }
-
 .blackberry::after {
   border-color: #b8aaa7;
   background-color: #b8aaa7;
 }
-
 .techtronix .content {
   background-color: #d4b5bb;
 }
-
 .techtronix::after {
   border-color: #d4b5bb;
   background-color: #d4b5bb;
 }
-
 .pathway .content {
   background-color: #a5bbd3;
 }
-
 .pathway::after {
   border-color: #a5bbd3;
   background-color: #a5bbd3;
 }
-
-/* .left .content {
-  transform: translateX(-100%);
-}
-
-.right .content {
-  transform: translateX(100%);
-} */
-
 @media (max-width: 625px) {
   .timeline::after {
     left: 0;
@@ -116,14 +102,6 @@
   .container.right {
     left: -1% !important;
   }
-
-  /* .container::before {
-    left: 6rem;
-    border: medium solid rgb(223, 18, 18);
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
-} */
-
   .left::after,
   .right::after {
     left: 1.5rem;

@@ -32,7 +32,7 @@
   margin-top: 8rem;
 }
 .homeBottomSection hr{
-  width: 5rem;
+  width: 10rem;
   border: none;
   border-top: .2rem solid #666565; 
   margin: 20px 0; 
@@ -41,11 +41,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 3rem;
+  gap: 2rem;
 }
 .socialIconSection a{
   color: #666565;
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 .socialIconSection a:hover{
   color: #CD8495;
