@@ -11,21 +11,21 @@ export default function Experience() {
             <div className="content">
                 <h3>Software Developer CO-OP</h3>
                 <h5>BlackBerry Limited <span>(Jan 2024 - April 2024)</span></h5>
-                <p>Designed and implemented software features in Objective-C for a cybersecurity R&D team, contributing creative ideas and ensuring secure mobile app development aligned with industry best practices. Actively participated in Agile/Scrum ceremonies and sprint planning.</p>
+                <p>Developed and debugged software features using Objective-C for a cybersecurity application, implemented continuous integration with Jenkins, and managed dependencies using Gradle. Actively participated in Agile/Scrum ceremonies and sprint planning.</p>
             </div>
         </div>
         <div className="container right techtronix">
             <div className="content">
-                <h3>REACT Native Developer</h3>
+                <h3>Full-Stack Developer</h3>
                 <h5>Techtronix Nepal <span>(Feb 2021 - Nov 2022)</span></h5>
-                <p>Developed and improved an e-commerce mobile app with React Native, adding features like product recommendations and user reviews. Ensured its stability by implementing Redux and Context API for state management, integrating third-party tools, and conducting extensive testing.</p>
+                <p>Contributed to the development of an e-commerce mobile app using React Native and implemented features for a content management web application with MongoDB, Express.js, React.js, and Node.js. Designed and integrated RESTful APIs, Implemented state management with Redux and Context API, integrated third-party libraries.</p>
             </div>
         </div>
         <div className="container left pathway">
             <div className="content">
-                <h3>Full Stack Developer</h3>
+                <h3>Web Developer</h3>
                 <h5>Pathway Technologies <span>(Nov 2019 - Jan 2021)</span></h5>
-                <p>Developed core features for a content management web app using the MERN stack, focusing on efficient content updates. Built RESTful APIs with Node.js and Express.js, integrated with MongoDB. Designed interfaces and prototypes in Adobe XD for seamless integration across web and mobile platforms.</p>
+                <p>Assisted in developing and maintaining e-commerce web applications with PHP and MySQL. Created responsive and interactive web pages using Bootstrap and jQuery. Designed user interfaces and prototypes using Adobe XD to facilitate seamless integration into responsive web and mobile applications. </p>
             </div>
         </div>
     </div>

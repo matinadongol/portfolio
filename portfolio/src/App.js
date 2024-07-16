@@ -1,5 +1,6 @@
 import './App.css';
 import About from './about/About';
+import Certificates from './certificates/Certificates';
 import Education from './education/Education';
 import Experience from './experience/Experience';
 import Home from './home/Home';
@@ -14,6 +15,7 @@ function App() {
       <Skills/>
       <Experience/>
       <Projects/>
+      <Certificates/>
       <Education/>
     </div>
   );

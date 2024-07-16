@@ -20,7 +20,7 @@ function Skills() {
           <div className="skillsListLeft">
             <h5>Swift</h5>
             <h5>Objective-C</h5>
-            <h5>mySQL</h5>
+            <h5>MySQL</h5>
             <h5>Adobe XD</h5>
             <h5>GIT</h5>
             <h5>Jira</h5>
