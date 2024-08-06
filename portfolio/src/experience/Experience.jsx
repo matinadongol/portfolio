@@ -9,23 +9,23 @@ export default function Experience() {
         <div className="timeline">
         <div className="container left blackberry">
             <div className="content">
-                <h3>Software Developer CO-OP</h3>
+                <h3>Software Developer</h3>
                 <h5>BlackBerry Limited <span>(Jan 2024 - April 2024)</span></h5>
-                <p>Developed and debugged software features using Objective-C for a cybersecurity application, implemented continuous integration with Jenkins, and managed dependencies using Gradle. Actively participated in Agile/Scrum ceremonies and sprint planning.</p>
+                <p>I efficiently managed project dependencies using Gradle and facilitated public key deployment to Nexus through Jenkins. By leveraging Xcode’s code analysis tools, I improved app performance by 12% and significantly reduced bugs. Additionally, I conducted thorough code reviews to ensure adherence to coding standards, security practices, and overall quality.</p>
             </div>
         </div>
         <div className="container right techtronix">
             <div className="content">
                 <h3>Full-Stack Developer</h3>
                 <h5>Techtronix Nepal <span>(Feb 2021 - Nov 2022)</span></h5>
-                <p>Contributed to the development of an e-commerce mobile app using React Native and implemented features for a content management web application with MongoDB, Express.js, React.js, and Node.js. Designed and integrated RESTful APIs, Implemented state management with Redux and Context API, integrated third-party libraries.</p>
+                <p>I played a key role in developing an e-commerce mobile app with React Native and enhanced a content management web app using MERN stack, increasing user interaction by 13%. I developed RESTful APIs, reduced issue resolution time by 10% with JIRA, and ensured high code quality through Redux, Context API, and Jest testing.</p>
             </div>
         </div>
         <div className="container left pathway">
             <div className="content">
                 <h3>Web Developer</h3>
                 <h5>Pathway Technologies <span>(Nov 2019 - Jan 2021)</span></h5>
-                <p>Assisted in developing and maintaining e-commerce web applications with PHP and MySQL. Created responsive and interactive web pages using Bootstrap and jQuery. Designed user interfaces and prototypes using Adobe XD to facilitate seamless integration into responsive web and mobile applications. </p>
+                <p>I assisted in developing and maintaining e-commerce web applications using PHP and MySQL. I created responsive and interactive web pages with Bootstrap and jQuery, and designed UI/UX prototypes with Adobe XD, reducing development time by 25%. </p>
             </div>
         </div>
     </div>

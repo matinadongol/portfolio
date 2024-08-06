@@ -96,7 +96,7 @@
   .container {
     width: 100%;
     padding-left: 7rem;
-    padding-right: 2.5rem;
+    padding-right: 0.5rem;
     left: -1% !important;
   }
   .container.right {

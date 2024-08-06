@@ -13,6 +13,16 @@ export default function Certificates() {
             <FontAwesomeIcon icon={faAward} className="awardIcon" />
           </div>
           <div className="certificateName">
+            <a href='https://www.udemy.com/certificate/UC-fdfda67c-4aae-4a57-a4c8-a4d41b563101'>
+            <h3>React Native</h3>
+          </a>
+          </div>
+        </div>
+        <div className="certificatesSubDiv">
+          <div className="certificateLeft">
+            <FontAwesomeIcon icon={faAward} className="awardIcon" />
+          </div>
+          <div className="certificateName">
             <a href='https://learn.mongodb.com/c/pM8c7714TFCfeb46eZph0A'>
             <h3>MongoDB Node.js Developer Path</h3>
           </a>

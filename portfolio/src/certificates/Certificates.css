@@ -23,9 +23,11 @@
 .certificatesSubDiv:nth-child(2) .awardIcon {
   color: #a5bbd3; 
 }
-
 .certificatesSubDiv:nth-child(3) .awardIcon {
   color: #d4b5bb; 
+}
+.certificatesSubDiv:nth-child(4) .awardIcon {
+  color: #b8aaa7; 
 }
 .certificateName{
   width: 40%;
